@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(travel3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo img{
+    height: 90px;
+        width: auto;
+       top: 10px;
+       left: 5px;
+       transform: translate(10%,10%);
+}
+.main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.main ul li {
+    display: inline-block;
+   
+}
+.main ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid transparent;
+}
+.main ul li a:hover{
+    background-color: white;
+    color:black;
+}
+.main ul li.active a{
+  background-color: white;
+  color:black;
+
+}
+
+
+
+.title{
+    position:absolute;
+    color:white;
+    top:50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    font-size: 700%;
+    font-family:Forte;
+}
+.title h2{
+    font-family:Script MT Bold;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+
+}
+.button{
+    position: absolute;
+    top: 80%;
+    left: 23%;
+    transform: translate(-10%,-10%);
+}
+.btn{
+    text-decoration: none;
+     color:white;
+     border: 1px solid white;
+     padding: 10px 60px;
+     transition: 0.6s;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+}
